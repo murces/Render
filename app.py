@@ -5,8 +5,8 @@ import json
 app = Flask(__name__)
 
 # Binance API anahtarları
-binance_api_key = "YOUR_API_KEY"
-binance_api_secret = "YOUR_API_SECRET"
+binance_api_key = "398699d2117d8f728f21db66863e6f18545ddf01afc5b4d45ed5bfc97d65f033"
+binance_api_secret = "c910b7706a7f97676ba6b0e0566729c234b7f53dfde720fe112dac300a4261ee"
 client = Client(binance_api_key, binance_api_secret)
 
 # Binance Futures ayarları
